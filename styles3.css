@@ -1,0 +1,93 @@
+/* 
+   Revisions Bookstore and Cafe style sheet 
+   Filename: styles.css
+
+   Author:   
+   Date:     
+   HTML5 and CSS3 Illustrated Unit E, Visual Workshop
+ */
+
+/* reset styles */
+article, body, div, footer, header, h1, h2, p {
+    border: 0;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ /* body and page container */
+ body div.container {
+    max-width:640px;
+    margin: 0 auto;
+    background-color: white;
+    border:solid lightgrey
+ } 
+ 
+ /* headings */
+ header {
+     padding: 0.5em;
+    text-align: center;
+    background-color: lightgray;
+    font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+    font-size:18px
+ 
+ }
+ 
+ 
+ /* main content */
+ article {
+   width: 60%;
+   padding:3%;
+   border:1em solid burlywood;
+    float: left;
+ font-size:20px
+  }
+ article div.container {
+    padding: 2%;
+    background-color: white;
+    border:1em solid burlywood;
+ }
+ article h2 {
+    margin-bottom: 0.4em;
+ }
+ article p {
+    margin: 0 0 0.8em 1em;
+ }
+ 
+ /* sidebar */
+ aside {
+    width:23%;
+    padding:2%;
+    float:right;
+    font-size:20px;
+    position:relative;
+    left:-0.5em
+    
+ }
+ aside p {
+    padding: 0.4em;
+    margin-bottom: 0.6em;
+ }
+ 
+ /* footer section */
+ footer {
+    padding: 0.5em;
+    clear: both;
+    text-align: right;
+    background-color: lightgray
+ }
+ .title{ color:darkred
+ }
+ .accent{font-weight: bold
+ 
+ }
+ a {padding:0.5em;
+     margin:0.5em;
+     position:relative;
+     right:-8.5em;
+     color:white;
+     text-decoration:none;
+     }   
+     nav{ background-color:black;
+     padding:0.4em;   }
+       a:hover{background-color:white;
+       color:black}   
