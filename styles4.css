@@ -2,8 +2,8 @@
    Revisions Bookstore and Cafe style sheet 
    Filename: styles.css
 
-   Author:   
-   Date:     
+   Author:   Edwin Low En Lin
+   Date:     5/18/18
    HTML5 and CSS3 Illustrated Unit F, Visual Workshop
  */
 
@@ -107,5 +107,5 @@ a{ padding:0.5em;
     margin:0.5em;
     color:white;
 text-decoration:none}
-a:hover{background-color:white;
+a:hover{background-color:grey;
     color:black}   
